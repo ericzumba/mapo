@@ -1,1 +1,8 @@
-#mapid { height: 180px; }
+body {
+  width: 450px;
+  height: 180px;
+}
+
+#mapid { 
+  height: 180px; 
+}
