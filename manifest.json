@@ -9,6 +9,8 @@
     "default_popup": "mapo.html"
   },
   "permissions": [
+    "tabs",
+    "activeTab",
     "webRequest",
     "webRequestBlocking",
     "<all_urls>"
