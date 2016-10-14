@@ -15,6 +15,8 @@
     "128": "img/icon.png"
   },
   "permissions": [
+    "webRequest",
+    "webRequestBlocking",
     "<all_urls>"
   ]
 }
