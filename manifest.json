@@ -21,8 +21,6 @@
   "permissions": [
     "tabs",
     "activeTab",
-    // "webRequest",
-    // "webRequestBlocking",
     "<all_urls>"
   ]
 }

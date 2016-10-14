@@ -3,6 +3,10 @@ body {
   height: 180px;
 }
 
+#disclaimer {
+  height: 20px;
+}
+
 #mapid { 
   height: 180px; 
 }
