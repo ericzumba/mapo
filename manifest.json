@@ -8,11 +8,21 @@
     "default_icon": "img/icon.png",
     "default_popup": "mapo.html"
   },
+  "background": {
+    "scripts": ["lib/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["lib/content.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }],
   "permissions": [
     "tabs",
     "activeTab",
-    "webRequest",
-    "webRequestBlocking",
+    // "webRequest",
+    // "webRequestBlocking",
     "<all_urls>"
   ]
 }
