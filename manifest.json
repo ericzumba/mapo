@@ -4,15 +4,9 @@
   "manifest_version": 2,
   "version": "1.0",
   "minimum_chrome_version": "23",
-  "app": {
-    "background": {
-      "scripts": ["main.js"]
-    }
-  },
-  "icons": {
-    "16": "img/icon.png",
-    "64": "img/icon.png",
-    "128": "img/icon.png"
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_popup": "mapo.html"
   },
   "permissions": [
     "webRequest",
