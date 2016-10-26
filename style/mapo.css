@@ -10,3 +10,7 @@ body {
 #mapid { 
   height: 450px; 
 }
+
+span.legend {
+  font-size: 1.4em;
+}
